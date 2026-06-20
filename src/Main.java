@@ -19,7 +19,7 @@ public class Main {
 
             System.out.println("\n--- Результат Optional ---");
 
-            System.out.println(resultYear.map(year -> "Найден год выпуска книги: " + year).orElse("Такая книга отсутствует"));
+            System.out.println(resultYear.map(year -> "Найден год выпуска книги:  " + year).orElse("Такая книга отсутствует"));
 
         } catch (IOException e) {
             System.err.println("Ошибка чтения файла: " + e.getMessage());
