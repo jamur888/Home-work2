@@ -1,3 +1,5 @@
+package recours;
+
 import java.util.Objects;
 
 class Book implements Comparable<Book> {
@@ -5,9 +7,6 @@ class Book implements Comparable<Book> {
     private int pages;
     private int year;
 
-
-    public Book() {
-    }
 
     public Book(String title, int pages, int year) {
         this.title = title;

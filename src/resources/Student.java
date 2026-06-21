@@ -1,11 +1,11 @@
+package recours;
+
 import java.util.List;
 
 class Student {
     private String name;
     private List<Book> books;
 
-    public Student() {
-    }
 
     public Student(String name, List<Book> books) {
         this.name = name;
